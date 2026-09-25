@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+
+        <div class="nav-container">
+
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <span class="logo-icon">D</span>
+                <span>Dashboard</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <ul class="nav-links">
+                <li>
+                    <a href="#dashboard" class="active">Dashboard</a>
+                </li>
+
+                <li>
+                    <a href="#analytics">Analytics</a>
+                </li>
+
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#settings">Settings</a>
+                </li>
+            </ul>
+
+            <!-- Profile -->
+            <div class="profile">
+                <div class="avatar">JD</div>
+                <span>John Doe</span>
+            </div>
+
+            <!-- Hamburger Button -->
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Open menu"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+        <!-- Mobile Navigation -->
+        <div class="mobile-menu" id="mobileMenu">
+
+            <a href="#dashboard" class="active">
+                Dashboard
+            </a>
+
+            <a href="#analytics">
+                Analytics
+            </a>
+
+            <a href="#projects">
+                Projects
+            </a>
+
+            <a href="#settings">
+                Settings
+            </a>
+
+            <a href="#profile">
+                Profile
+            </a>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTENT ================= -->
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="dashboard">
+
+            <h1>
+                Welcome back, John 👋
+            </h1>
+
+            <p>
+                Your responsive dashboard navigation is ready.
+                Resize the browser to see the desktop navigation
+                transform into a mobile hamburger menu.
+            </p>
+
+        </section>
+
+
+        <!-- Dashboard Cards -->
+        <section class="cards">
+
+            <!-- Analytics -->
+            <article class="card" id="analytics">
+
+                <div class="card-icon">
+                    01
+                </div>
+
+                <h2>
+                    Analytics
+                </h2>
+
+                <p>
+                    Track your key metrics and monitor performance
+                    from one convenient dashboard.
+                </p>
+
+            </article>
+
+
+            <!-- Projects -->
+            <article class="card" id="projects">
+
+                <div class="card-icon">
+                    02
+                </div>
+
+                <h2>
+                    Projects
+                </h2>
+
+                <p>
+                    Organize active projects, tasks, milestones,
+                    and progress in one place.
+                </p>
+
+            </article>
+
+
+            <!-- Settings -->
+            <article class="card" id="settings">
+
+                <div class="card-icon">
+                    03
+                </div>
+
+                <h2>
+                    Settings
+                </h2>
+
+                <p>
+                    Configure your dashboard preferences and
+                    personalize your workspace.
+                </p>
+
+            </article>
+
+        </section>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
